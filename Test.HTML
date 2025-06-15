@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title> Form </title>
+        <style>
+
+            *{text-align: center;}
+
+            #container{border: 5px solid red; padding: 10px; margin: 20px auto; background-image: linear-gradient(yellow, lightblue);}
+
+            h2{font-family: arial;}
+
+            button{padding: 10px; width: 500px; color: white; background-color: green; cursor: pointer;}
+
+            #red{padding: 5px; width: 400px;}
+
+            .max{font-family: calibri;}
+
+            .ram{font-family: helvetica;}
+
+            .build{font-family: impact;}
+
+            .burn{font-family: fantasy;}
+
+            #cat{font-family: verdana;}
+
+            #dog{font-family: papyrus;}
+
+            </style>
+    </head>
+    <body>
+        <div id= "container">
+        <form action= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxrC0h0XyndEPr8OZIxiSljVr7H0UittsyAQ&s" target= "_blank">
+        <h2> Checkout Form </h2>
+                <fieldset>
+                <legend> Contact Info </legend>
+                <br/>
+                <label class= "max"> Name: </label>
+                <br/> <br/>
+                <input type="text" required placeholder="Type in your Name" id= "red">
+                <br/> <br/>
+                <label class= "ram"> Email: </label>
+                <br/> <br/>
+                <input type="email" required placeholder= "Enter your personal email" id= "red">
+                <br/> <br/>
+                <label class= "build"> User ID: </label>
+                <br/> <br/>
+                <input type="number" required placeholder="Please enter your ID" id= "red">
+                <br/>
+                </fieldset>
+                <br/> <br/> <br/>
+                <fieldset>
+                <legend> Password </legend>
+                <br/>
+                <label class= "burn"> Password: </label>
+                <br/> <br/>
+                <input type="password" placeholder= "Enter in your password" required id= "red">
+                </fieldset>
+                <br/> <br/>
+                <fieldset>
+                <legend> Company Experience </legend>
+                <br/>
+                <label id= "cat"> How was your experience with the company? </label>
+                <br/> <br/>
+                <input type= "radio" value= "checkout" required> Good </input>
+                <input type= "radio" value= "checkout" required> Mid </input>
+                <input type= "radio" value= "checkout" required> Bad </input>
+                <br/> <br/>
+                <label id= "dog"> What were some of the best things you liked about our company? </label>
+                <br/> <br/>
+                <input type="checkbox" value= "checkout" required> Building programs
+                <input type="checkbox" value= "checkout" required> Fixing vulnerabilities
+                <input type="checkbox" value= "checkout" required> Doing team projects
+                <input type="checkbox" value= "checkout" required> Improving the salary
+                </fieldset>
+                <br/> <br/>
+                <button type="submit"> Submit </button>
+            </form>
+        </div>
+    </body>
+</html>
